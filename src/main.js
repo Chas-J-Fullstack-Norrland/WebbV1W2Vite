@@ -2,13 +2,18 @@ import './style.css'
 
 // Hämta element
 const menuBtn = document.getElementById('menu-btn');
+const menuBtn2 = document.getElementById('menu-btn2');
 const navMenu = document.getElementById('main-nav');
 const viewportText = document.getElementById('viewport-text');
+const burgerMenu = document.getElementById('hamburgerMenu');
+
 
 // Hamburgermeny
 menuBtn.addEventListener('click', () => {
-    navMenu.classList.toggle('hidden');
-    navMenu.classList.toggle('flex');
+    burgerMenu.classList.toggle('showmenu');
+});
+menuBtn2.addEventListener('click', () => {
+    burgerMenu.classList.toggle('showmenu');
 });
 
 // Dynamisk Text

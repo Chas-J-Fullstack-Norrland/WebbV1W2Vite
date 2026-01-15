@@ -26,9 +26,9 @@
                 </div>
 
                 <div class="flex gap-4 items-center">
-                    <div class="hidden md:block">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
-                    </div>
+                    <button id="menu-btn2" class="cursor-pointer" aria-label="Öppna meny">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            </button>
                     <a href="#" class="hover:text-blue-200">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
                     </a>
@@ -36,6 +36,13 @@
             </nav>
         </div>
     </header>
+
+    <ul id="hamburgerMenu" class="fade-in-menu bg-black w-3xs flex flex-col items-center">
+        <li><a href="">Wishlist</a></li>
+        <li><a href="">Profile</a></li>
+        <li><a href="">Settings</a></li>
+        <li><a href="">Log out</a></li>
+    </ul>
 
     <div class="bg-brand-gray border-b border-gray-300 py-2">
       <div class="max-w-5xl mx-auto px-4 text-sm text-gray-600">

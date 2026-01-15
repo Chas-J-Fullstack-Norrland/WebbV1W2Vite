@@ -16,3 +16,21 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+
+.fade-in-menu{
+  position:fixed;
+  right:0;
+  top:50px;
+  transition: 0.5s;
+  z-index: 99;
+  transform: translateY(-200%);
+}
+
+.fade-in-menu a{
+  color: white;
+
+}
+
+.showmenu{
+  transform: translateY(0);
+}
