@@ -20,9 +20,15 @@ body {
 .fade-in-menu{
   position:fixed;
   right:0;
-  transition: 0.2s;
+  top:50px;
+  transition: 0.5s;
   z-index: 99;
   transform: translateY(-200%);
+}
+
+.fade-in-menu a{
+  color: white;
+
 }
 
 .showmenu{
